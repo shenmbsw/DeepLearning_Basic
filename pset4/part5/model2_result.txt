@@ -1,0 +1,142 @@
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcurand.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcufft.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcublas.so.8.0 locally
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: Tesla P100-PCIE-12GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.3285
+pciBusID 0000:04:00.0
+Total memory: 11.94GiB
+Free memory: 11.65GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:04:00.0)
+iteration 0 0	 loss: 126.197, accuracy: 0.165
+iteration 0 50	 loss: 2.233, accuracy: 0.202
+iteration 0 100	 loss: 1.566, accuracy: 0.506
+iteration 0 150	 loss: 1.048, accuracy: 0.687
+iteration 0 200	 loss: 0.967, accuracy: 0.721
+iteration 0 250	 loss: 0.868, accuracy: 0.748
+iteration 1 0	 loss: 0.873, accuracy: 0.747
+iteration 1 50	 loss: 0.790, accuracy: 0.776
+iteration 1 100	 loss: 0.794, accuracy: 0.767
+iteration 1 150	 loss: 0.762, accuracy: 0.784
+iteration 1 200	 loss: 0.735, accuracy: 0.793
+iteration 1 250	 loss: 0.701, accuracy: 0.800
+iteration 2 0	 loss: 0.783, accuracy: 0.773
+iteration 2 50	 loss: 0.694, accuracy: 0.806
+iteration 2 100	 loss: 0.693, accuracy: 0.800
+iteration 2 150	 loss: 0.697, accuracy: 0.805
+iteration 2 200	 loss: 0.674, accuracy: 0.815
+iteration 2 250	 loss: 0.633, accuracy: 0.822
+iteration 3 0	 loss: 0.704, accuracy: 0.801
+iteration 3 50	 loss: 0.635, accuracy: 0.822
+iteration 3 100	 loss: 0.649, accuracy: 0.817
+iteration 3 150	 loss: 0.694, accuracy: 0.802
+iteration 3 200	 loss: 0.646, accuracy: 0.822
+iteration 3 250	 loss: 0.661, accuracy: 0.820
+iteration 4 0	 loss: 0.648, accuracy: 0.818
+iteration 4 50	 loss: 0.619, accuracy: 0.831
+iteration 4 100	 loss: 0.678, accuracy: 0.812
+iteration 4 150	 loss: 0.659, accuracy: 0.816
+iteration 4 200	 loss: 0.672, accuracy: 0.819
+iteration 4 250	 loss: 0.673, accuracy: 0.809
+Model saved in file: /usr4/dlearn/shs2016f/cs591s2/pset4/tmp/SVHNpp.ckpt
+iteration 0 0	 loss: 7.535, accuracy: 0.111
+iteration 0 50	 loss: 2.092, accuracy: 0.258
+iteration 0 100	 loss: 1.486, accuracy: 0.499
+iteration 0 150	 loss: 1.259, accuracy: 0.576
+iteration 0 200	 loss: 1.063, accuracy: 0.665
+iteration 0 250	 loss: 0.969, accuracy: 0.694
+iteration 1 0	 loss: 0.960, accuracy: 0.697
+iteration 1 50	 loss: 0.943, accuracy: 0.698
+iteration 1 100	 loss: 0.764, accuracy: 0.767
+iteration 1 150	 loss: 0.800, accuracy: 0.753
+iteration 1 200	 loss: 0.698, accuracy: 0.789
+iteration 1 250	 loss: 0.732, accuracy: 0.774
+iteration 2 0	 loss: 0.679, accuracy: 0.795
+iteration 2 50	 loss: 0.651, accuracy: 0.803
+iteration 2 100	 loss: 0.626, accuracy: 0.812
+iteration 2 150	 loss: 0.634, accuracy: 0.810
+iteration 2 200	 loss: 0.588, accuracy: 0.822
+iteration 2 250	 loss: 0.642, accuracy: 0.804
+iteration 3 0	 loss: 0.586, accuracy: 0.825
+iteration 3 50	 loss: 0.557, accuracy: 0.836
+iteration 3 100	 loss: 0.553, accuracy: 0.831
+iteration 3 150	 loss: 0.547, accuracy: 0.834
+iteration 3 200	 loss: 0.527, accuracy: 0.841
+iteration 3 250	 loss: 0.537, accuracy: 0.840
+iteration 4 0	 loss: 0.551, accuracy: 0.835
+iteration 4 50	 loss: 0.531, accuracy: 0.838
+iteration 4 100	 loss: 0.507, accuracy: 0.848
+iteration 4 150	 loss: 0.541, accuracy: 0.832
+iteration 4 200	 loss: 0.500, accuracy: 0.850
+iteration 4 250	 loss: 0.573, accuracy: 0.826
+iteration 5 0	 loss: 0.534, accuracy: 0.842
+iteration 5 50	 loss: 0.508, accuracy: 0.847
+iteration 5 100	 loss: 0.496, accuracy: 0.852
+iteration 5 150	 loss: 0.547, accuracy: 0.832
+iteration 5 200	 loss: 0.493, accuracy: 0.854
+iteration 5 250	 loss: 0.527, accuracy: 0.840
+iteration 6 0	 loss: 0.486, accuracy: 0.852
+iteration 6 50	 loss: 0.510, accuracy: 0.843
+iteration 6 100	 loss: 0.481, accuracy: 0.855
+iteration 6 150	 loss: 0.517, accuracy: 0.842
+iteration 6 200	 loss: 0.477, accuracy: 0.856
+iteration 6 250	 loss: 0.487, accuracy: 0.855
+iteration 7 0	 loss: 0.461, accuracy: 0.860
+iteration 7 50	 loss: 0.461, accuracy: 0.859
+iteration 7 100	 loss: 0.471, accuracy: 0.857
+iteration 7 150	 loss: 0.487, accuracy: 0.854
+iteration 7 200	 loss: 0.475, accuracy: 0.855
+iteration 7 250	 loss: 0.480, accuracy: 0.852
+iteration 8 0	 loss: 0.480, accuracy: 0.858
+iteration 8 50	 loss: 0.471, accuracy: 0.853
+iteration 8 100	 loss: 0.450, accuracy: 0.865
+iteration 8 150	 loss: 0.514, accuracy: 0.849
+iteration 8 200	 loss: 0.472, accuracy: 0.864
+iteration 8 250	 loss: 0.456, accuracy: 0.862
+iteration 9 0	 loss: 0.502, accuracy: 0.852
+iteration 9 50	 loss: 0.458, accuracy: 0.860
+iteration 9 100	 loss: 0.458, accuracy: 0.865
+iteration 9 150	 loss: 0.483, accuracy: 0.858
+iteration 9 200	 loss: 0.465, accuracy: 0.863
+iteration 9 250	 loss: 0.454, accuracy: 0.866
+iteration 10 0	 loss: 0.485, accuracy: 0.856
+iteration 10 50	 loss: 0.466, accuracy: 0.859
+iteration 10 100	 loss: 0.456, accuracy: 0.867
+iteration 10 150	 loss: 0.460, accuracy: 0.867
+iteration 10 200	 loss: 0.475, accuracy: 0.863
+iteration 10 250	 loss: 0.436, accuracy: 0.871
+iteration 11 0	 loss: 0.485, accuracy: 0.854
+iteration 11 50	 loss: 0.431, accuracy: 0.873
+iteration 11 100	 loss: 0.464, accuracy: 0.867
+iteration 11 150	 loss: 0.452, accuracy: 0.873
+iteration 11 200	 loss: 0.484, accuracy: 0.860
+iteration 11 250	 loss: 0.448, accuracy: 0.873
+iteration 12 0	 loss: 0.480, accuracy: 0.860
+iteration 12 50	 loss: 0.456, accuracy: 0.864
+iteration 12 100	 loss: 0.475, accuracy: 0.864
+iteration 12 150	 loss: 0.476, accuracy: 0.865
+iteration 12 200	 loss: 0.474, accuracy: 0.870
+iteration 12 250	 loss: 0.438, accuracy: 0.879
+iteration 13 0	 loss: 0.463, accuracy: 0.867
+iteration 13 50	 loss: 0.432, accuracy: 0.875
+iteration 13 100	 loss: 0.496, accuracy: 0.863
+iteration 13 150	 loss: 0.478, accuracy: 0.865
+iteration 13 200	 loss: 0.480, accuracy: 0.868
+iteration 13 250	 loss: 0.464, accuracy: 0.873
+iteration 14 0	 loss: 0.473, accuracy: 0.864
+iteration 14 50	 loss: 0.456, accuracy: 0.870
+iteration 14 100	 loss: 0.461, accuracy: 0.870
+iteration 14 150	 loss: 0.495, accuracy: 0.861
+iteration 14 200	 loss: 0.440, accuracy: 0.879
+iteration 14 250	 loss: 0.496, accuracy: 0.866

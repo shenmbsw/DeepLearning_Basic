@@ -1,0 +1,22 @@
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcurand.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:126] Couldn't open CUDA library libcuda.so.1. LD_LIBRARY_PATH: /share/pkg/python/3.6.0/install/lib:/share/pkg/cudnn/5.1/install/lib64:/share/pkg/cuda/8.0/install/extras/CUPTI/lib64:/share/pkg/cuda/8.0/install/lib64:/share/pkg/sqlite3/3.17.0/install/lib
+I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:165] hostname: scc-ba3
+I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:189] libcuda reported version is: Not found: was unable to find libcuda.so DSO loaded into this program
+I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:193] kernel reported version is: Permission denied: could not open driver version path for reading: /proc/driver/nvidia/version
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1065] LD_LIBRARY_PATH: /share/pkg/python/3.6.0/install/lib:/share/pkg/cudnn/5.1/install/lib64:/share/pkg/cuda/8.0/install/extras/CUPTI/lib64:/share/pkg/cuda/8.0/install/lib64:/share/pkg/sqlite3/3.17.0/install/lib
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1066] failed to find libcuda.so on this system: Failed precondition: could not dlopen DSO: libcuda.so.1; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcufft.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcublas.so.8.0 locally
+Traceback (most recent call last):
+  File "tolstoy.py", line 93, in <module>
+    run_tolstoy_train(hidden)
+  File "tolstoy.py", line 56, in run_tolstoy_train
+    tolstoy_reader.batch_tolstoy_generator(batch_size=200, seq_size=100)
+  File "/usr4/dlearn/shs2016f/cs591s2/pset5/tolstoy_reader.py", line 66, in batch_tolstoy_generator
+    id_seq, char2int_dict, int2char_dict = _read_dataset_war_and_peace()
+  File "/usr4/dlearn/shs2016f/cs591s2/pset5/tolstoy_reader.py", line 41, in _read_dataset_war_and_peace
+    file_content = f.read()
+  File "/share/pkg/python/3.6.0/install/lib/python3.6/encodings/ascii.py", line 26, in decode
+    return codecs.ascii_decode(input, self.errors)[0]
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xef in position 0: ordinal not in range(128)
